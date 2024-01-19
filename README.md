@@ -1,6 +1,6 @@
 This is the readme file for the 0x1B. C - Sorting algorithms & Big O project
 
-https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png
+![willy-wonka](https://github.com/b7sh/sorting_algorithms/assets/140034446/1035ec46-fafe-4218-80d9-0aa1a5b638d3)
 
 General:
 
