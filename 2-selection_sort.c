@@ -25,6 +25,9 @@ void selection_sort(int *array, size_t size)
 	size_t index_1, index_2;
 	size_t minimum;
 
+	if (array == NULL || size < 2)
+		return;
+
 	for (index_1 = 0; index_1 < (size - 1); index_1++)
 	{
 		minimum = index_1;
