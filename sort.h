@@ -28,5 +28,4 @@ void quick_sort(int *array, size_t size);
 void quicksort(int *array, size_t size, int lower, int upper);
 int partition(int *array, size_t size, int lower, int upper);
 void shell_sort(int *array, size_t size);
-
 #endif

@@ -27,13 +27,13 @@ void shell_sort(int *array, size_t size)
 	if (!array || size < 2)
 		return;
 
-	for (interval = 1; interval < size / 3;)
-		interval = interval * 3 + 1;
+	for (interval = 1; interval < size / 3; interval = (interval * 3) + 1)
+		;
 	for (; interval >= 1; interval /= 3)
 	{
 		for (i = interval; i < size; i++)
 		{
-			for (j = i; i >= interval && array[j - interval] > array[j]; j -= interval)
+			for (j = i; j >= interval && array[j - interval] > array[j]; j -= interval)
 			{
 				swap(&array[j - interval], &array[j]);
 			}
