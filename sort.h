@@ -28,4 +28,7 @@ void quick_sort(int *array, size_t size);
 void quicksort(int *array, size_t size, int lower, int upper);
 int partition(int *array, size_t size, int lower, int upper);
 void shell_sort(int *array, size_t size);
+void counting_sort(int *array, size_t size);
+int find_max(int *array, int size);
+
 #endif
