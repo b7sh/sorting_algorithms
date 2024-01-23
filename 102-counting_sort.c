@@ -1,12 +1,14 @@
 #include "sort.h"
 
 /**
- * max_num - find the maximum number in the array
- * @array: hold the elements
- * @size: the array size
+ * maxNum - Get the maximum number.
+ * @array: hold the elements.
+ * @size: the array size.
+ *
+ * Return: max.
 */
 
-int max_num(int *array, int size)
+int maxNum(int *array, int size)
 {
 	int i, max;
 
@@ -35,7 +37,7 @@ void counting_sort(int *array, size_t size)
 	temp = malloc(size * sizeof(int));
 	if (!temp)
 		return;
-	max = max_num(array, size);
+	max = maxNum(array, size);
 	count = malloc((max + 1) * sizeof(int));
 	if (!count)
 	{
